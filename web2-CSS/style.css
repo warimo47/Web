@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+#active {
+  color:red;
+}
+.saw {
+  color:gray;
+}
+a {
+  color:black;
+  text-decoration: none;
+}
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom:1px solid gray;
+  margin: 0px;
+  padding: 20px;
+}
+#grid {
+  display: grid;
+  border: 1px;
+  grid-template-columns: 150px 1fr;
+}
+#grid ol {
+  width: 100px;
+  margin: 10px;
+  padding: 20px;
+}
+#menu {
+    border-right:1px solid gray;
+}
+#text {
+  padding: 10px;
+}
+@media(max-width: 800px) {
+  #grid {
+    display: block;
+    border: 1px;
+    grid-template-columns: 150px 1fr;
+  }
+  #menu {
+      border-right: none;
+  }
+}
